@@ -1,0 +1,26 @@
+#$ Color
+
+ #Construct a color palette that adheres to ISO 6429's definition of ANSI colors. The specification does not constrain a
+ #terminal's default colors, foreground or background, in a manner preventing them from being unique therefore there can be 18
+ #unique colors.
+ foreground=000000
+ background=ffffff
+ palette=0=707070
+ palette=1=e03838
+ palette=2=008c28
+ palette=3=ac8c00
+ palette=4=0078ff
+ palette=5=cc40e0
+ palette=6=00ace0
+ palette=7=b0b0b3
+ palette=8=c0c0c0
+ palette=9=ffc4c4
+ palette=10=b4e4b4
+ palette=11=fadea5
+ palette=12=abc0ff
+ palette=13=f8c0f8
+ palette=14=b0e0ff
+ palette=15=e8e8f0
+
+ cursor-color=0078ff
+ #Set default "cursor-color" to the current color-palette's ANSI blue.
