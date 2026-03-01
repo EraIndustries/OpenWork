@@ -1,3 +1,12 @@
+#$ Window
+
+ macos-titlebar-style=hidden
+
+ window-width=4_294_967_295
+ window-height=4_294_967_295
+ #If a window's dimension exceeds its available visible-length then it will be clamped to that length. Set each default
+ #window-dimension to its max allowed-value to fill the available visible-area as much as possible.
+
 #$ Cell
 
  adjust-cell-width=-20%
