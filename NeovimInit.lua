@@ -18,6 +18,12 @@
 
  vim.o.tabstop=1
 
+ --Remove bottom bar.
+ vim.o.cmdheight=0
+ vim.o.laststatus,vim.o.statusline=0,'%#StatusLine#%=%{repeat(\'―\',winwidth(0))}'
+ --For "vim.o.laststatus=0" the status line is used as the separator between horizontal splits. Make the status line a horizontal
+ --line to clearly separate such splits while making it seem like there is no status line.
+
 --$ Control
 
  vim.o.shiftwidth=0
