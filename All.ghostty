@@ -1,3 +1,13 @@
+#$ Cell
+
+ adjust-cell-width=-20%
+ adjust-cell-height=-20%
+
+ adjust-cursor-thickness=+150%
+
+ font-family=SourceCodeVF
+ font-size=14
+
 #$ Color
 
  #Construct a color palette that adheres to ISO 6429's definition of ANSI colors. The specification does not constrain a
