@@ -11,3 +11,5 @@ end})
 vim.g.colors_name='default' --Set "vim.g.colors_name" to a valid colors-name to ensure "ColorScheme" autocommands are executed on Neovim startup.
 
 vim.o.list,vim.o.listchars,vim.o.fillchars=true,'tab:│ ,trail:•,extends:▶︎,precedes:◀︎','eob: '
+
+vim.o.wrap=false
