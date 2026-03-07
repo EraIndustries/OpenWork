@@ -13,3 +13,5 @@ vim.g.colors_name='default' --Set "vim.g.colors_name" to a valid colors-name to 
 vim.o.list,vim.o.listchars,vim.o.fillchars=true,'tab:│ ,trail:•,extends:▶︎,precedes:◀︎','eob: '
 
 vim.o.wrap=false
+
+vim.o.tabstop=1
