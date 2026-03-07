@@ -8,6 +8,15 @@
  font-family=SourceCodeVF
  font-size=14
 
+ #$ Font Style
+
+  font-variation=wght=350
+
+  font-variation-bold=wght=500
+
+  font-variation-italic=wght=200
+  font-style-italic=normal
+
 #$ Color
 
  #Construct a color palette that adheres to ISO 6429's definition of ANSI colors. The specification does not constrain a
