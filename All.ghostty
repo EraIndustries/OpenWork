@@ -1,3 +1,11 @@
+#$ Control
+
+ keybind=clear
+ keybind=super+c=copy_to_clipboard
+ keybind=super+v=paste_from_clipboard
+
+ macos-option-as-alt=true
+
 #$ Window
 
  macos-titlebar-style=hidden
