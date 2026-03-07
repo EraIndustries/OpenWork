@@ -21,3 +21,4 @@
 --$ Control
 
  vim.o.shiftwidth=0
+ vim.o.copyindent=true
