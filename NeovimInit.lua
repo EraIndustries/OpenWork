@@ -28,3 +28,7 @@
 
  vim.o.shiftwidth=0
  vim.o.copyindent=true
+
+ local function expected_virtualedit() return vim.fn.mode()=='i' and 'none' or 'all' end
+ vim.o.virtualedit=expected_virtualedit()
+ vim.api.nvim_create_autocmd('ModeChanged',{callback=function() vim.o.virtualedit=expected_virtualedit() end})
