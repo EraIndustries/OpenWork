@@ -1,0 +1,87 @@
+┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│TEMPLATE NOTICE                                                                                                            │
+│                                                                                                                           │
+│To use this file as a license you MUST:                                                                                    │
+│ 1) Replace "<YEAR>" with the year of first publication of the Work.                                                       │
+│ 2) Replace "<COPYRIGHT HOLDER>" with the full legal-name of the Work's copyright holder.                                  │
+│ 3) Remove this entire template-notice box and its contents such that the first line of this file is the line immediately  │
+│    after this box.                                                                                                        │
+└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+Open Work License: OWL-1
+
+Copyright © <YEAR>, <COPYRIGHT HOLDER>
+
+1. Definitions
+
+"Licensed Content" means the copyrighted work or other subject matter made available under this license, in any form, whether
+original or modified, and includes the whole or any part thereof, whether used directly or indirectly.
+
+"Offering" means any material, good, or service, whether commercial or non-commercial, in which the Licensed Content is used,
+incorporated, distributed, or made available, alone or in combination with any other materials, goods, or services.
+
+"Work" means the Licensed Content, whether used alone or as part of an Offering.
+
+"Identity" means any distinctive name, pseudonym, trademark, logo, trade dress, or other identifier, whether registered or
+unregistered, by which a person, entity, or Work is known or represented.
+
+"Similar Offering" means an Offering that, by virtue of its use of the Work, is materially similar thereto in one or more of
+its essential aspects, including, but not limited to, functionality, purpose, overall appearance, or user experience.
+
+"Copy" means the Licensed Content, or any part thereof, reproduced without modification, whether verbatim or with only changes
+in format, encoding, language, or representation that do not alter its expressive content.
+
+"Cost" means any consideration, whether direct or indirect, including, but not limited to, payment, donation, service, access,
+advertising revenue, sponsorship, monetization of attention, or any other form of consideration.
+
+"License Steward" means the copyright holder of the Open Work License as a work in itself, and not the copyright holder of any
+particular copy or instance thereof, which shall have sole authority to publish, designate, and maintain official templates and
+versions of the Open Work License.
+
+2. Grant of Rights
+
+Subject to the terms and conditions of this license, the Work is licensed on a worldwide, royalty-free, non-exclusive basis,
+including under any applicable copyright, sui generis database rights, and any other applicable rights, to use, reproduce,
+modify, adapt, distribute, publicly perform, publicly display, and make available the Work.
+
+This license and the rights granted hereunder terminate immediately and automatically upon any violation of its terms and
+conditions.
+
+3. Conditions
+
+Any use of the Work other than as permitted under this license is not authorized. The exercise of the rights granted under this
+license is subject to the following conditions:
+
+ 3.1. Similar Offerings
+
+ A Similar Offering may not be exchanged for Cost and may only be distributed free of Cost.
+
+ A Similar Offering may not be sublicensed, relicensed, or distributed under any additional, different, or modified terms or
+ conditions, and may be distributed only subject to the terms of this version of the Open Work License.
+
+ A Similar Offering that is not a Copy may not use any Identity of the Work, including by being presented as, attributed to, or
+ associated with any such Identity.
+
+ A Similar Offering that is a Copy must use the original Identity of the Work and may not use any other Identity, including by
+ being presented as, attributed to, or associated with any such other Identity.
+
+ Notwithstanding the foregoing, in the case where a Similar Offering is not a Copy, the copyright holder is exempt from the
+ restrictions set forth in the first and second paragraphs above of this Section 3.1. Additionally, the copyright holder of the
+ Work may distribute a Copy of the Work under any official version of the Open Work License, whether earlier or later than this
+ version, as issued by or on behalf of the License Steward. Except for these limited exceptions, and unless otherwise explicitly
+ specified, the copyright holder remains fully subject to all terms and conditions of this license.
+
+ 3.2. Identity of the Copyright Holder and Contributors
+
+ Except as expressly permitted under this license, the Identity of the copyright holder or any contributor to the Work may not
+ be used without the specific prior written permission of the applicable individual or entity. Notwithstanding the foregoing,
+ the copyright holder may use its own Identity without restriction, and may use the Identity of any contributor solely in
+ connection with the Work, without obtaining such permission.
+
+4. Disclaimer of Warranty and Limitation of Liability
+
+THIS WORK IS PROVIDED BY THE COPYRIGHT HOLDER AND CONTRIBUTORS "AS IS", AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT
+NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT
+SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS WORK, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
