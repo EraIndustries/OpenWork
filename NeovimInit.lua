@@ -33,3 +33,14 @@
  vim.o.virtualedit=expected_virtualedit()
  vim.api.nvim_create_autocmd('ModeChanged',{callback=function() vim.o.virtualedit=expected_virtualedit() end})
  vim.api.nvim_create_autocmd('BufWinLeave',{callback=function(context)vim.schedule(function() return vim.api.nvim_buf_is_valid(context.buf) and vim.bo[context.buf].buflisted and vim.fn.win_findbuf(context.buf)==0 and vim.cmd('bw'..context.buf) end)end})
+
+ vim.o.loadplugins=false
+ vim.cmd('filetype plugin off | filetype indent off')
+ local function treesit(buffer)
+  local filetype=vim.bo[buffer].filetype
+  if not filetype then return end
+  local language=vim.treesitter.language.get_lang(filetype)
+  if not language or not vim.treesitter.language.add(language) then return end
+  vim.treesitter.start(buffer,language)
+ end
+ vim.api.nvim_create_autocmd('FileType',{callback=function(context) treesit(context.buf) end})
