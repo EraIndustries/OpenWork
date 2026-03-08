@@ -32,3 +32,4 @@
  local function expected_virtualedit() return vim.fn.mode()=='i' and 'none' or 'all' end
  vim.o.virtualedit=expected_virtualedit()
  vim.api.nvim_create_autocmd('ModeChanged',{callback=function() vim.o.virtualedit=expected_virtualedit() end})
+ vim.api.nvim_create_autocmd('BufWinLeave',{callback=function(context)vim.schedule(function() return vim.api.nvim_buf_is_valid(context.buf) and vim.bo[context.buf].buflisted and vim.fn.win_findbuf(context.buf)==0 and vim.cmd('bw'..context.buf) end)end})
