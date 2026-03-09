@@ -26,10 +26,12 @@
 
 --$ Control
 
- vim.keymap.set({'n','i','c','v','o','t'},'<d-s>',function()
+ local all_keymap_modes={'n','i','c','v','o','t'}
+ vim.keymap.set(all_keymap_modes,'<d-s>',function()
   if vim.bo.buftype~='' or not vim.bo.modifiable or vim.bo.readonly or vim.api.nvim_buf_get_name(0)=='' then return end
   vim.cmd('W')
  end)
+ vim.keymap.set(all_keymap_modes,'<d-w>','<cmd>q<cr>')
 
  vim.o.shiftwidth=0
  vim.o.copyindent=true
