@@ -27,15 +27,15 @@
 --$ Control
 
  local all_keymap_modes={'n','i','c','v','o','t'}
- vim.keymap.set(all_keymap_modes,'<d-s>',function()
+ vim.keymap.set(all_keymap_modes,'<m-w>',function()
   if vim.bo.buftype~='' or not vim.bo.modifiable or vim.bo.readonly or vim.api.nvim_buf_get_name(0)=='' then return end
   vim.cmd('W')
  end)
- vim.keymap.set(all_keymap_modes,'<d-w>','<cmd>q<cr>')
- vim.keymap.set(all_keymap_modes,'<d-s-h>','<cmd>vsplit<cr>')
- vim.keymap.set(all_keymap_modes,'<d-s-j>','<cmd>belowright split<cr>')
- vim.keymap.set(all_keymap_modes,'<d-s-k>','<cmd>split<cr>')
- vim.keymap.set(all_keymap_modes,'<d-s-l>','<cmd>rightbelow vsplit<cr>')
+ vim.keymap.set(all_keymap_modes,'<m-q>','<cmd>q<cr>')
+ vim.keymap.set(all_keymap_modes,'<m-s-h>','<cmd>vsplit<cr>')
+ vim.keymap.set(all_keymap_modes,'<m-s-j>','<cmd>belowright split<cr>')
+ vim.keymap.set(all_keymap_modes,'<m-s-k>','<cmd>split<cr>')
+ vim.keymap.set(all_keymap_modes,'<m-s-l>','<cmd>rightbelow vsplit<cr>')
  vim.keymap.set(all_keymap_modes,'<m-h>','<c-w>h')
  vim.keymap.set(all_keymap_modes,'<m-j>','<c-w>j')
  vim.keymap.set(all_keymap_modes,'<m-k>','<c-w>k')
