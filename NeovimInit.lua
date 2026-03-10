@@ -40,6 +40,7 @@
  vim.keymap.set(all_keymap_modes,'<m-j>','<c-w>j')
  vim.keymap.set(all_keymap_modes,'<m-k>','<c-w>k')
  vim.keymap.set(all_keymap_modes,'<m-l>','<c-w>l')
+ vim.keymap.set(all_keymap_modes,'<m-i>','<cmd>terminal<cr>')
 
  vim.o.shiftwidth=0
  vim.o.copyindent=true
