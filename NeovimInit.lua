@@ -32,6 +32,10 @@
   vim.cmd('W')
  end)
  vim.keymap.set(all_keymap_modes,'<d-w>','<cmd>q<cr>')
+ vim.keymap.set(all_keymap_modes,'<d-s-h>','<cmd>vsplit<cr>')
+ vim.keymap.set(all_keymap_modes,'<d-s-j>','<cmd>belowright split<cr>')
+ vim.keymap.set(all_keymap_modes,'<d-s-k>','<cmd>split<cr>')
+ vim.keymap.set(all_keymap_modes,'<d-s-l>','<cmd>rightbelow vsplit<cr>')
 
  vim.o.shiftwidth=0
  vim.o.copyindent=true
