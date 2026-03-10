@@ -36,6 +36,10 @@
  vim.keymap.set(all_keymap_modes,'<d-s-j>','<cmd>belowright split<cr>')
  vim.keymap.set(all_keymap_modes,'<d-s-k>','<cmd>split<cr>')
  vim.keymap.set(all_keymap_modes,'<d-s-l>','<cmd>rightbelow vsplit<cr>')
+ vim.keymap.set(all_keymap_modes,'<m-h>','<c-w>h')
+ vim.keymap.set(all_keymap_modes,'<m-j>','<c-w>j')
+ vim.keymap.set(all_keymap_modes,'<m-k>','<c-w>k')
+ vim.keymap.set(all_keymap_modes,'<m-l>','<c-w>l')
 
  vim.o.shiftwidth=0
  vim.o.copyindent=true
